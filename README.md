@@ -3,7 +3,7 @@
 A minimal, dark mission-control style dashboard built with Streamlit, Pandas, and Plotly.
 
 ## Included
-- `app.py` — interactive dashboard
+- `orbit_dash.py` — interactive dashboard
 - `nasa_spaceapps_astronaut_sleep_health.csv` — supplied synthetic dataset
 - `requirements.txt` — Python dependencies
 
@@ -38,7 +38,7 @@ A minimal, dark mission-control style dashboard built with Streamlit, Pandas, an
 Streamlit will open the dashboard in your browser. If it does not, visit the local URL printed in the terminal (usually http://localhost:8501).
 
 ## Deploy
-Push this folder to a GitHub repository and deploy it through Streamlit Community Cloud. Set the app entry point to `app.py`.
+Push this folder to a GitHub repository and deploy it through Streamlit Community Cloud. Set the app entry point to `orbit_dash.py`.
 
 ## Notes
 - The dashboard supports the included CSV automatically.
